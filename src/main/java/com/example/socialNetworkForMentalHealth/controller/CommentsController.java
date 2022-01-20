@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-
+@CrossOrigin(origins = "https://help-hope.herokuapp.com")
 @RestController
 public class CommentsController {
     private CommentsService commentsService;

@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@CrossOrigin(origins = "https://help-hope.herokuapp.com")
 @RestController
 public class PersonalExperienceController {
     private PersonalExperienceService personalExperienceService ;

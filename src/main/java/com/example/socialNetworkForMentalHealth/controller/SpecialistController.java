@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-//@CrossOrigin(origins = "https://localhost:3002")
+@CrossOrigin(origins = "https://help-hope.herokuapp.com")
 @RestController
 public class SpecialistController {
     private SpecialistService specialistService;
