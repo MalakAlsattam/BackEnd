@@ -31,7 +31,7 @@ public class PersonalExperienceController {
         personalExperienceService.addNewsPersonalEx(personalExperience);
     }
 
-    @DeleteMapping(path = "api/PersonalEx/delete/{id}")
+    @DeleteMapping(path = "api/PEx/delete/{id}")
     public void deletePersonalEx(@PathVariable ("id") String id){
         int PersonalExId=Integer.parseInt(id);
         personalExperienceService.deletePersonalEx(PersonalExId);
